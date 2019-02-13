@@ -1,4 +1,9 @@
 import json
+# import requests
+
+
+# res = requests.get('https://raw.githubusercontent.com/bluekyzhao/Resources/master/user-agent/ualist.json')
+# ua_dict = json.loads(res.text)
 
 
 with open('ualist.json') as f:
