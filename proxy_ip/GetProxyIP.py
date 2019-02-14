@@ -1,8 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 import requests
 from bs4 import BeautifulSoup
-# 获取当前访问使用的IP地址网站
-# 访问目标必须是http,因为代理是http
+# requests.get 如果使用 http代理 去访问 https的网站，代理会被自动丢弃。
 
 
 class ActiveProxy:
